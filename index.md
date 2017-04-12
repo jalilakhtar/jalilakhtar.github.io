@@ -1,3 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Stylesheets with Relative Paths</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+		 
+</head>
+<body>
+	<header>
+		<h1>Student Bio</h1>
+	</header>
+	
+	<div class="container">
+	
+		<section id="main-bio">
+		
+			<h2>Jalil Akhtar</h2>
+
+			<img src="http://placehold.it/200x200" alt="Jalil Akhtar" id="bio-image">
+
+			<p>I am very excited to take this coding boot camp so I can learn how to code, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a>
+			</p>
+
+		</section>
+
+		<section id="contact-info">
+			<h2>Contact Info</h2>
+			<ul>
+				<li><strong>Email:</strong> <a 
+				href="#">someplace@gmail.com</a>
+				</li>
+				<li><strong>Github:<strong> <a 
+				href="#">sampleName</a></li>
+				<li><strong>Portfolio:</strong>
+				<a href="#">coming soon</a></li></li>
+			</ul>
+		</section>
+	</div>
+
+</body>
+</html>
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jalilakhtar/jalilakhtar.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
